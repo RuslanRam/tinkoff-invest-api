@@ -1,22 +1,22 @@
 {
-    "name": "dzhdmitry/tinkoff-invest-api",
+    "name": "ruslanram/tinkoff-invest-api",
     "description": "PHP client for Tinkoff Invest API",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dmitry Dzhuleba",
+            "name": "Ruslan Ram",
             "email": "dzhdmitry@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.4",
+        "php": "^8.1",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.0",
         "symfony/serializer": "^5.1",
         "symfony/property-access": "^5.1",
-        "psr/log": "^1.1",
+        "psr/log": "^3.0",
         "amphp/websocket-client": "^1.0"
     },
     "autoload": {
